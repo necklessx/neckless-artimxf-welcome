@@ -40,7 +40,7 @@ for (let index = 0; index < ayarlar.neckwelcometokenler.length; index++) {
     });
     
     client.on('voiceStateUpdate', async (cur) => {
-        if (cur.member.id === client.user.id) ozicik = await client.channels.cache.get(ayarlar.welcomeseskanalları[index]).join();
+        if (cur.member.id === client.user.id) artimcim = await client.channels.cache.get(ayarlar.welcomeseskanalları[index]).join();
     })
 
     client.on('voiceStateUpdate', async (___, newState) => {
