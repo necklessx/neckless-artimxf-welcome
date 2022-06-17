@@ -1,0 +1,27 @@
+{
+"enaltyetkili": "ROL_ID",
+
+"neckwelcometokenler": [
+    "TOKEN_I",
+    "TOKEN_II",
+    "TOKEN_III",
+    "TOKEN_IV"
+],
+
+"welcomeseskanalları": [
+    "SES_I",
+    "SES_II",
+    "SES_III",
+    "SES_IV"
+],
+
+"botdinliyor": [
+    "Durum_I",
+    "Durum_I",
+    "Durum_III"
+    ]
+
+
+
+
+}
