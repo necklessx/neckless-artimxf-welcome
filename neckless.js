@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const ayarlar = require("./artimcim.json");
 
 
-const ozi = [];
+const neckless = [];
 for (let index = 0; index < ayarlar.neckwelcometokenler.length; index++) {
     const token = ayarlar.neckwelcometokenler[index];
     const client = new Discord.Client();
