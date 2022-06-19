@@ -16,7 +16,7 @@ for (let index = 0; index < ayarlar.neckwelcometokenler.length; index++) {
     }, 10000);
         client.user.setStatus("idle"); ////////SEC BIRINI IDLE,DND,ONLINE
         console.log(`${client.user.tag} olarak giriş yapıldı.`);
-        ozicik = await client.channels.cache.get(ayarlar.welcomeseskanalları[index]).join().catch(err => console.error("Botların Welcome Sesine Girerken Sorun Oluştu."));
+        artimcim = await client.channels.cache.get(ayarlar.welcomeseskanalları[index]).join().catch(err => console.error("Botların Welcome Sesine Girerken Sorun Oluştu."));
     });
 
     let ses;
