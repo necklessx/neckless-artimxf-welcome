@@ -14,7 +14,7 @@ for (let index = 0; index < ayarlar.neckwelcometokenler.length; index++) {
         const welcomeaktivite = Math.floor(Math.random() * (ayarlar.botdinliyor.length));
         client.user.setActivity(`${ayarlar.botdinliyor[welcomeaktivite]}`, {type: "LISTENING"});
     }, 10000);
-        client.user.setStatus("idle"); ////////SEC BIRINI IDLE,DND,ONLINE
+        client.user.setStatus("idle"); ////////SEC BIRINI AMK (IDLE,DND,ONLINE)
         console.log(`${client.user.tag} olarak giriş yapıldı.`);
         artimcim = await client.channels.cache.get(ayarlar.welcomeseskanalları[index]).join().catch(err => console.error("Botların Welcome Sesine Girerken Sorun Oluştu."));
     });
