@@ -32,7 +32,7 @@ for (let index = 0; index < ayarlar.neckwelcometokenler.length; index++) {
                 ses = await artimcim.play('Neck Sesler/neck kız welcome.mp3');
                 neckless.push(cur.member.user.id);
             } else if (cur.member.roles.highest.rawPosition > cur.guild.roles.cache.get(ayarlar.enaltyetkili).rawPosition) {
-                ses = await artimcim.play('Neck Sesler/yetkili.');
+                ses = await artimcim.play('Neck Sesler/yt.mp3');
                 neckless.push(cur.member.user.id);
             }
         }
