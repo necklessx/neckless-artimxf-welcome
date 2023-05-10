@@ -1,9 +1,9 @@
 # Neckless & Artimxf Welcome Botlar
-
+[![Discord Presence](https://lanyard.cnrad.dev/api/1052616295822151790)](https://discord.com/users/1052616295822151790)
+[![Discord Presence](https://lanyard.cnrad.dev/api/411859331324051466)](https://discord.com/users/411859331324051466)
 - Sizlere geliştirmiş olduğum welcome botlarından biriyle tanıştırmak istiyorum.. 
 - Çok tokenli basit gelismis welcome bot.
 - Sağ üst kısımdan Star atarak destek olabilirsiniz.
-[![Discord Presence](https://lanyard.cnrad.dev/api/411859331324051466)](https://discord.com/users/411859331324051466)
 Asagidaki fotoda gostermis oldugum gibi tokenleri ve ses kanallarini azlatabilir veya coklatabilirsiniz.
 Ornek: "TOKEN_V":"sfsdjkfsd7fsdfjksdfjksdf9s993993h8834uhjfhdjkfjdf9.7743"
 Unutmayin ki 4 cu tokenin oldugu yerde , yazmalisiniz sona.
