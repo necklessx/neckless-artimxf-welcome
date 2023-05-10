@@ -25,14 +25,14 @@ for (let index = 0; index < ayarlar.neckwelcometokenler.length; index++) {
         if (cur.channel && (cur.channel.id === ayarlar.welcomeseskanalları[index])) {
             if (cur.channelID === prev.channelID) return;
             if (neckless.includes(cur.member.id) && (cur.member.roles.highest.rawPosition < cur.guild.roles.cache.get(ayarlar.enaltyetkili).rawPosition)) {
-                ses = await artimcim.play('./welcome.mp3');
+                ses = await artimcim.play('Neck Sesler/welcome.mp3');
                 return;
             }
             if ((cur.member.roles.highest.rawPosition < cur.guild.roles.cache.get(ayarlar.enaltyetkili).rawPosition)) {
-                ses = await artimcim.play('./welcome.mp3');
+                ses = await artimcim.play('Neck Sesler/welcome.mp3');
                 neckless.push(cur.member.user.id);
             } else if (cur.member.roles.highest.rawPosition > cur.guild.roles.cache.get(ayarlar.enaltyetkili).rawPosition) {
-                ses = await artimcim.play('./yetkili.mp3');
+                ses = await artimcim.play('Neck Sesler/yetkili.mp3');
                 neckless.push(cur.member.user.id);
             }
         }
